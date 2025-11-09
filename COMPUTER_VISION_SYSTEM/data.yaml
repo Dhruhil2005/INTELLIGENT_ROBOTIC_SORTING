@@ -1,0 +1,21 @@
+# Waste Sorting Dataset Configuration
+# Path: relative to this file location
+
+path: ./dataset
+train: images/train
+val: images/val
+test: images/test
+
+# Classes
+names:
+  0: plastic_bottle
+  1: aluminum_can
+  2: juice_box
+
+# Number of classes
+nc: 3
+
+# Notes:
+# - Add images to images/train, images/val, images/test
+# - Add corresponding labels (YOLO format) to labels/train, labels/val, labels/test
+# - Label format: <class_id> <x_center> <y_center> <width> <height> (normalized 0-1)
